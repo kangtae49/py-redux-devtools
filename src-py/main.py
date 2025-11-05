@@ -1,6 +1,7 @@
-def main():
-    print("Hello from src-py!")
+from apps import app
 
+def main():
+    app.run()
 
 if __name__ == "__main__":
     main()
