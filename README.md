@@ -141,3 +141,14 @@ cd src-py && uv run main.py
 cd src-react && pnpm dev
 ```
 
+## build
+```
+pnpm build
+```
+
+## final
+```
+pnpm dev
+pnpm py
+pnpm build
+```

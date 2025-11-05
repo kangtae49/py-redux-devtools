@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --outDir ../src-py/gui --emptyOutDir --minify && cd ../src-py && uv run pyinstaller build-windows.spec",
+    "py": "cd ../src-py && uv run main.py --verbose",
     "lint": "eslint .",
     "preview": "vite preview"
   },

@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "py": "cd ./src-react && pnpm py",
+    "dev": "cd ./src-react && pnpm dev",
+    "build": "cd ./src-react && pnpm build"
+  }
+}
