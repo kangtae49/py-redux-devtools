@@ -1,7 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 name = 'py-redux-devtools' # py-redux-devtools.exe
 pathex = ['../src-react/dist']
-# icon = '../src-react/src/assets/py-redux-devtools.ico'
+icon = '../src-react/src/assets/py-redux-devtools.ico'
 added_files = [
     ('.\\gui', 'gui'),
 ]
@@ -36,7 +36,7 @@ exe = EXE(pyz,
           strip=False,
           upx=True,
           upx_exclude=[],
-          # icon=icon,
+          icon=icon,
           runtime_tmpdir=None,
           console=False,
           disable_windowed_traceback=False,
